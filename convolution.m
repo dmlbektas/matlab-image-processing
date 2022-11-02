@@ -13,7 +13,7 @@ m=zeros(kh,kw);
      end
  end
  disp(m)
- fkh=floor(kh/2);
+ fkh=floor(kh/2);%floor fonksiyonu alt sayıya yuvarlama işlemi yapar.3x3lük matris için 1 değeri elde edilir.
  fkw=floor(kw/2);
  for i=fkh+1:h-fkh
      for j =fkw+1:w-fkh
